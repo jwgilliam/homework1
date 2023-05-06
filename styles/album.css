@@ -1,0 +1,28 @@
+h1 {
+  color: antiquewhite;
+}
+
+.albums {
+  color: antiquewhite;
+  border: 2px solid orangered;
+  padding: 12px;
+
+}
+
+.albumCover {
+  border: 1px solid antiquewhite;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#albumList {
+  display: flex;
+  flex-flow: row-wrap;
+  flex-basis: content;
+  padding: 10px;
+}
+
+.albumSingles {
+  column-count: 1;
+}
