@@ -1,7 +1,7 @@
 import { useAlbums } from "./albumDataProvider.js";
 import AlbumComponent from "./album.js";
 
-const contentElement = document.querySelector("#almbumList")
+const contentElement = document.querySelector("#albumList")
 const albumListComponent = () => {
   const albums = useAlbums()
 
